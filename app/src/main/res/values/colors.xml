@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="food272727">#272727</color>
+    <color name="foodFF4E3F">#FF4E3F</color>
+    <color name="food5C75FB">#5C75FB</color>
+    <color name="foodFFDA80">#FFDA80</color>
+    <color name="foodFF0404">#FF0404</color>
+    <color name="foodFAFBFD">#FAFBFD</color>
+    <color name="foodC4C4C4">#C4C4C4</color>
+    <color name="foodAFAFAF">#AFAFAF</color>
+    <color name="food3F3F3F">#3F3F3F</color>
+    <color name="food8F8F8F">#8F8F8F</color>
+    <color name="foodD9D9D9">#D9D9D9</color>
+    <color name="food565454">#565454</color>
+    <color name="foodB0B0B0">#B0B0B0</color>
+    <color name="food2F2F2F">#2F2F2F</color>
+</resources>

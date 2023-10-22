@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/food8F8F8F"
+    tools:context=".mainmenu.MainMenu">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/bg_onboard_menu"
+        app:layout_constraintEnd_toEndOf="@+id/img_avartar_main"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/img_avartar_main"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_avartar_main"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/avatar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/name_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/gilroy_medium"
+        android:text="@string/name"
+        android:textColor="@color/food272727"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/img_avartar_main"
+        app:layout_constraintStart_toStartOf="@+id/img_avartar_main"
+        app:layout_constraintTop_toBottomOf="@+id/img_avartar_main" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:text="@string/phone"
+        android:textColor="@color/foodB0B0B0"
+        android:textSize="14dp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="@+id/name_main"
+        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintStart_toStartOf="@+id/name_main"
+        app:layout_constraintTop_toBottomOf="@+id/name_main" />
+
+    <Button
+        android:id="@+id/bnt_Profile"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="@color/white"
+        android:drawableEnd="@drawable/dau"
+        android:fontFamily="@font/gilroy_medium"
+        android:text="@string/profile"
+        android:textAlignment="textStart"
+        android:textColor="@color/foodB0B0B0"
+        android:textSize="18dp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view" />
+
+    <Button
+        android:id="@+id/bnt_Chagn_Pass"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/chagn_password"
+        android:textAlignment="textStart"
+        android:textStyle="normal"
+        android:textSize="18dp"
+        android:fontFamily="@font/gilroy_medium"
+        android:textColor="@color/foodB0B0B0"
+        android:drawableEnd="@drawable/dau"
+        app:layout_constraintEnd_toEndOf="@+id/bnt_Profile"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/bnt_Profile"
+        app:layout_constraintTop_toBottomOf="@+id/bnt_Profile" />
+
+    <Button
+        android:id="@+id/bnt_Setting"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/setting"
+        android:textAlignment="textStart"
+        android:textStyle="normal"
+        android:textSize="18dp"
+        android:fontFamily="@font/gilroy_medium"
+        android:textColor="@color/foodB0B0B0"
+        android:drawableEnd="@drawable/dau"
+        app:layout_constraintEnd_toEndOf="@+id/bnt_Chagn_Pass"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/bnt_Chagn_Pass"
+        app:layout_constraintTop_toBottomOf="@+id/bnt_Chagn_Pass" />
+
+    <Button
+        android:id="@+id/bnt_Oder"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/oder"
+        android:textAlignment="textStart"
+        android:textStyle="normal"
+        android:textSize="18dp"
+        android:fontFamily="@font/gilroy_medium"
+        android:textColor="@color/foodB0B0B0"
+        android:drawableEnd="@drawable/dau"
+        app:layout_constraintEnd_toEndOf="@+id/bnt_Setting"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/bnt_Setting"
+        app:layout_constraintTop_toBottomOf="@+id/bnt_Setting" />
+
+    <Button
+        android:id="@+id/bnt_Delivery"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/deliverry"
+        android:textAlignment="textStart"
+        android:textStyle="normal"
+        android:textSize="18dp"
+        android:fontFamily="@font/gilroy_medium"
+        android:textColor="@color/foodB0B0B0"
+        android:drawableEnd="@drawable/dau"
+        app:layout_constraintEnd_toEndOf="@+id/bnt_Oder"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/bnt_Oder"
+        app:layout_constraintTop_toBottomOf="@+id/bnt_Oder" />
+
+    <Button
+        android:id="@+id/bnt_Fooder"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/fill_food"
+        android:textAlignment="textStart"
+        android:textStyle="normal"
+        android:textSize="18dp"
+        android:fontFamily="@font/gilroy_medium"
+        android:textColor="@color/foodB0B0B0"
+        android:drawableEnd="@drawable/dau"
+        app:layout_constraintEnd_toEndOf="@+id/bnt_Delivery"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/bnt_Delivery"
+        app:layout_constraintTop_toBottomOf="@+id/bnt_Delivery" />
+
+    <Button
+        android:id="@+id/bnt_Fill"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/fill_food"
+        android:textAlignment="textStart"
+        android:textStyle="normal"
+        android:textSize="18dp"
+        android:fontFamily="@font/gilroy_medium"
+        android:textColor="@color/foodB0B0B0"
+        android:drawableEnd="@drawable/dau"
+        app:layout_constraintEnd_toEndOf="@+id/bnt_Fooder"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/bnt_Fooder"
+        app:layout_constraintTop_toBottomOf="@+id/bnt_Fooder" />
+
+    <Button
+        android:id="@+id/bnt_login"
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:backgroundTint="@color/food272727"
+        android:fontFamily="@font/gilroy_medium"
+        android:text="@string/log_out"
+        android:textColor="@color/white"
+        android:textSize="23dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/bnt_Fill"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/bnt_Fill"
+        app:layout_constraintTop_toBottomOf="@+id/bnt_Fill"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

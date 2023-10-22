@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">foodonline</string>
+    <string name="login">Login</string>
+    <string name="pizamat3_food">PIZAMAT3 FOOD</string>
+    <string name="pizza_az">Pizza từ A-Z nơi hội tụ tinh hoa Ý</string>
+    <string name="get_started">Get Started</string>
+    <string name="menu_re">Bạn tham khảo các món ăn tại menu của nhà hàng</string>
+    <string name="noodle">Noodle</string>
+    <string name="login_1">Đăng Nhập</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="creat_account">Bạn chưa có tài khoản.</string>
+    <string name="sign_up">Đăng ký</string>
+    <string name="now_account">Đăng nhập bằng tài khoản</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="sign_up_1">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="accound">Bạn đã có tài khoản.</string>
+    <string name="name">Dimonz</string>
+    <string name="phone">+84 866 147 875</string>
+    <string name="profile">Tài khoản</string>
+    <string name="chagn_password">Thay đổi mật khẩu</string>
+    <string name="oder">Đặt món</string>
+    <string name="setting">Cài đặt</string>
+    <string name="deliverry">Giao hàng</string>
+    <string name="fill_food">Chọn món</string>
+    <string name="log_out">Thoát</string>
+    <string name="food">FOOD</string>
+    <string name="love">LOVE</string>
+</resources>

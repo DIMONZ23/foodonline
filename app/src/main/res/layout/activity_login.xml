@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/food8F8F8F"
+    tools:context=".login.Login">
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="130dp"
+        android:background="@drawable/bg_onboard_menu"
+        app:layout_constraintEnd_toEndOf="@+id/icon_login"
+        app:layout_constraintHorizontal_bias="0.544"
+        app:layout_constraintStart_toStartOf="@+id/icon_login"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/icon_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        android:background="@drawable/icon_log"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/gilroy_medium"
+        android:text="@string/login"
+        android:textColor="@color/food272727"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/icon_login"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/icon_login" />
+
+    <EditText
+        android:id="@+id/edit_Username"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/form_login"
+        android:ems="10"
+        android:fontFamily="@font/gilroy_medium"
+        android:hint="@string/username"
+        android:inputType="text"
+        android:textColor="@color/food565454"
+        android:textColorHint="@color/food8F8F8F"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view2" />
+
+    <EditText
+        android:id="@+id/edit_Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/form_login"
+        android:ems="10"
+        android:fontFamily="@font/gilroy_medium"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textColor="@color/food565454"
+        android:textColorHint="@color/food8F8F8F"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="@+id/edit_Username"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edit_Username"
+        app:layout_constraintTop_toBottomOf="@+id/edit_Username" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/food272727"
+        android:fontFamily="@font/gilroy_medium"
+        android:text="@string/login_1"
+        android:textColor="@color/white"
+        android:textSize="23dp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="@+id/edit_Password"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/edit_Password"
+        app:layout_constraintTop_toBottomOf="@+id/edit_Password" />
+
+    <TextView
+        android:id="@+id/texthint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/gilroy_medium"
+        android:text="@string/creat_account"
+        android:textColor="@color/foodB0B0B0"
+        android:textSize="15dp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="@+id/btn_login"
+        app:layout_constraintTop_toBottomOf="@+id/btn_login" />
+
+    <TextView
+        android:id="@+id/sign_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/gilroy_medium"
+        android:text="@string/sign_up"
+        android:textColor="@color/food2F2F2F"
+        android:textSize="14dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/texthint"
+        app:layout_constraintStart_toEndOf="@+id/texthint"
+        app:layout_constraintTop_toTopOf="@+id/texthint"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/texthint2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/gilroy_medium"
+        android:text="@string/now_account"
+        android:textColor="@color/foodB0B0B0"
+        android:textSize="15dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/btn_login"
+        app:layout_constraintTop_toBottomOf="@+id/btn_login"
+        app:layout_constraintVertical_bias="0.266" />
+
+    <Button
+        android:id="@+id/bnt_fb"
+        android:layout_width="165dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="8dp"
+        android:backgroundTint="@color/food5C75FB"
+        android:fontFamily="@font/avenir1"
+        android:text="@string/facebook"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/texthint2"
+        app:layout_constraintTop_toBottomOf="@+id/texthint2"
+        app:layout_constraintVertical_bias="0.263" />
+
+    <Button
+        android:id="@+id/bnt_gg"
+        android:layout_width="165dp"
+        android:layout_height="65dp"
+        android:backgroundTint="@color/foodFF4E3F"
+        android:fontFamily="@font/avenir1"
+        android:text="@string/google"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="@+id/bnt_fb"
+        app:layout_constraintEnd_toEndOf="@+id/btn_login"
+        app:layout_constraintStart_toEndOf="@+id/bnt_fb"
+        app:layout_constraintTop_toTopOf="@+id/bnt_fb" />
+</androidx.constraintlayout.widget.ConstraintLayout>

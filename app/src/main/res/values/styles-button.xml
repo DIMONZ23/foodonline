@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.foodonline.Buton" parent="@style/Widget.Material3.Button">
+        <item name="cornerRadius">59dp</item>
+        <item name="android:textSize">23sp</item>
+        <item name="android:paddingTop">14dp</item>
+        <item name="android:paddingBottom">14dp</item>
+        <item name="paddingStart">105dp</item>
+        <item name="paddingEnd">105dp</item>
+        <item name="backgroundTint">@color/food272727</item>
+    <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="Widget.foodonline.Buton.Login" parent="Widget.foodonline.Buton"/>
+</resources>
